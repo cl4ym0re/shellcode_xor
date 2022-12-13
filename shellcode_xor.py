@@ -14,7 +14,7 @@ def bannerPrint():
  ██╔██╗ ██║   ██║██╔══██╗
 ██╔╝ ██╗╚██████╔╝██║  ██║
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-    why not xor it                                  
+      why not xor it                                  
     '''
     print(banner)
 
@@ -32,7 +32,7 @@ def xor(num):
 
     with open(output_file, "wb") as f:
         f.write(encrypted_payload)
-    print("[*]Saved as encrypt bin.")
+    print("[*]Saved as encrypt.bin.")
 if __name__ == "__main__":
     bannerPrint()
     parser = argparse.ArgumentParser()
